@@ -1,22 +1,24 @@
 # SoftwareSecurity
 
 Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
-
+I work as a developer for a software company, Global Rain, that specializes in custom software design and development for various people around the world. Artemis Financial, the client, is a financial consulting company that works with their customers’ earnings to create financial, retirement and investment plans, and help provide insurance to them. They came to us to help modernize its operations and implement and apply the most current and effecgt software security to protect their customer's private information. They have a RESTful web API and is requesting support in ensuring their information is protected against external threats.
 
 What did you do particularly well in identifying their software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
-
+Utilizng the Maven Dependency check was key when performing this assignment. I believe this report was prepared to the best of my ability as I interpreted the results and relayed them to the client in a professional manner. Having secure software is imperative to Artemis Financial keeping their customers. Keeping private information private, is essential to their business plan. This company has so much potential not only in the national market, but also to grow globally. As this company grows and continues to modernize their software, there is the potential for unknown vulnerabilities. Especially, if moving into the international market. Researching those vulnerabilities is crucial. Of course, there is always the possibility of new viruses attacking the hardware to gain access to private information. Adding more levels of security to the software will not only help with modernizing it, but ensure the software is the most secure it can be. 
 
 What about the process of working through the vulnerability assessment did you find challenging or helpful?
-
+The most challenging aspect of the vulnerability assessment was identifying false positives. There were many vulnerabilities in this project and going through each and everyone was time consuming and sometimes difficult to understand. Some of the CVE codes did not have a link where I would have to search what the code is. Having many dyslexic moments did not help with the many numbers needed to type in the NIST database. Identifiying the CVE codes was important, so learning how to go through a report and determining the meaning of each code was challenging at times. Once I figured it out, it became less time consuming and easier to understand. I definitely had to google a lot of words to understand if some of the things listed were possible. 
+Although there were challenges, the report was incredibly helpful on where to look in the code and make manual revisions. The report gave me the answers I needed, I just needed to decipher the report first. 
 
 How did you approach the need to increase layers of security? What techniques or strategies would you use in the future to assess vulnerabilities and determine mitigation techniques?
-
+My approach to this was you can never be secure enough. Meaning, using an algorithm cipher and message digest cipher was important. There are no known attacks or infiltrations of the SHA-256 message digest cipher, meaning no one has been able to crack this cipher yet. I believe that no matter what software I am working on in the future, I will always use the most secure ciphers. Even if it is something small, all software should get the best security out there to protect against threats. 
+In future projects or assignments given to me, I believe I will continue to use the maven dependency check. This report, although somewhat overwhelming, really helped me determine where the problems are in the code. As I mentioned before, I think I will always use SHA-256 no matter what as an extra precausion. 
 
 How did you ensure the code and software application were functional and secure? After refactoring code, how did you check to see whether you introduced new vulnerabilities?
-
+To ensure the code and software were functional and secure, I created a vulnerability report. At first running the dependency check  gave me errors as the code needed to be updated. The vulnerability showed less dependencies and vulnerabilities then the updated version. To refactor the code, I updated the pom.xl file with the correct versions of software needed. The vulnerability report showed there were 11 dependencies and 72 vulnerabilities. Once the code was updated, I re-ran the dependency check and the build was successful. Re-running reports was key to determining if I had opened the software up to any other vulnerabilities.
 
 What resources, tools, or coding practices did you employ that you might find helpful in future assignments or tasks?
-
+Utilizing the vulnerability assessment flow diagram was very helpful for this course. It allowed me to visualize the types of vulnerabilities that the software might have. For example, for this project, many vulnerabilities were found. Input validation, API, cryptography, client/server, and code quality are the vulnerabilities I found in the report. The dependency report I generated was also a huge support for this project. I also utilized many oracle support documents on how to use certain code. Writing code comments was also incredibly useful and I know I will continue with this throughout my career. 
 
 Employers sometimes ask for examples of work that you have successfully completed to demonstrate your skills, knowledge, and experience. What from this particular assignment might you want to showcase to a future employer?
-
+I believe the static testing section of this project was done particulary well. I worked very hard to understand what each vulnerability meant and how to fix it. I researched each vulnerability in depth and reworded the definition to make it easier for my client to understand. I also provided references for the client to go back to if they had more questions about the report. Overall, I was proud of this report and know my abilities are showcased well.
